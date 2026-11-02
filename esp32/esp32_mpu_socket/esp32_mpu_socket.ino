@@ -14,10 +14,10 @@
 #include <Adafruit_Sensor.h>
 
 // ---- settings -------------------------------------------------------------
-const char* WIFI_SSID = "gd-network-2g";
-const char* WIFI_PASS = "HeheheHahaha";
+const char* WIFI_SSID = "YOUR_WIFI_NAME";
+const char* WIFI_PASS = "YOUR_WIFI_PASSWORD";
 
-const char* SERVER_HOST = "192.168.4.182";   // laptop running server.js
+const char* SERVER_HOST = "192.168.x.x";     // LAN IP of the laptop running server.js
 const int   SERVER_PORT = 3000;
 
 const int LED = D7;
